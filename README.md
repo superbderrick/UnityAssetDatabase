@@ -1,2 +1,3 @@
-# AddressableAsset
-AddressableAsset Sample project with s3
+# UnityIAPSample
+
+Unity IAP Sample 

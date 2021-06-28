@@ -12,22 +12,22 @@ public class MembershipEditor : EditorWindow
     }
 
 
-    private const string STORE_AMAZON = "AMAZON";
-    private const string STORE_GOOGLE = "GOOGLE";
+    private const string STORE_CONFIGURATION = "SETUP FOR Membership Android";
+    //private const string STORE_GOOGLE = "GOOGLE";
     
     private void OnGUI()
     {
         EditorGUILayout.BeginHorizontal();
-        if (GUILayout.Button(STORE_AMAZON))
+        if (GUILayout.Button(STORE_CONFIGURATION))
         {
-            Debug.Log("AMAZON");
+            MembershipBuild.ConfigureMembershipSDK();
         }
  
-        if (GUILayout.Button(STORE_GOOGLE))
-        {
-            Debug.Log("GOOGLE");
-        }
-        
+        // if (GUILayout.Button(STORE_GOOGLE))
+        // {
+        //     Debug.Log("GOOGLE");
+        // }
+        //
         EditorGUILayout.EndHorizontal();
     }
 }

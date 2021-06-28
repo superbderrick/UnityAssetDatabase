@@ -1,3 +1,3 @@
-# UnityIAPSample
+# UnityAssetDatabase
 
-Unity IAP Sample 
+UnityAssetDatabase Sample 
